@@ -1,7 +1,7 @@
 #-- root/outputs.tf --
 
 output "instance_ip" {
-  value = module.ec2_instance.public_ips
+  value = module.ec2_instance.public_ip
 }
 
 output "instance_tags" {

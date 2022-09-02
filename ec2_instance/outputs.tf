@@ -1,7 +1,7 @@
-#-- ec2_instance/outputs.tf --
+#-- module ec2_instance/outputs.tf --
 
-output "public_ips" {
-  value = aws_instance.app_server.public_ips
+output "public_ip" {
+  value = aws_instance.app_server.public_ip
 }
 
 output "ec2_tags" {

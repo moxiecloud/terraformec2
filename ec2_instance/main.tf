@@ -5,6 +5,6 @@ resource "aws_instance" "app_server" {
   instance_type = var.instance
 
   tags = {
-    Name = "ExampleAppServerInstance"
+    Name = "TF_AppServer"
   }
 }

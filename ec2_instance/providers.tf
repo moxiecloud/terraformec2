@@ -1,4 +1,4 @@
-#-- module ec2_instance --
+#-- module ec2_instance/providers.tf --
 
 terraform {
   required_providers {
